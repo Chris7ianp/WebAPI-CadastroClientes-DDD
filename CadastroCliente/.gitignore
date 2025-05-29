@@ -1,0 +1,28 @@
+﻿# Ignore a pasta .vs (configurações locais do Visual Studio)
+.vs/
+
+# Pastas de build temporário
+bin/
+obj/
+
+# Configurações de usuário
+*.user
+*.suo
+
+# Arquivos de log e banco local
+*.log
+*.db
+
+# Arquivos do Rider ou VS Code (opcional)
+.idea/
+.vscode/
+
+# Dotnet tools
+tools/
+
+# Arquivos gerados por testes
+TestResults/
+
+# Mac / Linux arquivos ocultos
+.DS_Store
+Thumbs.db
